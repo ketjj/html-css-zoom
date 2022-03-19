@@ -1,6 +1,6 @@
 body{
- font-size: 14px;
  color: white;
+ font-family: Arial, Helvetica, sans-serif;
 }
 
 .dsp-flex{
@@ -10,11 +10,15 @@ body{
 .tsp-white{
   background-color: rgba(255, 255, 255, .3);
 }
-
-
+.mrg-rgt{
+  margin-right: 10px;
+}
+.crs-pnt {
+  cursor: pointer;
+}
 /* DEBUG */
 
-.debug {
+/* .debug {
   background-color: rgba(255, 0 , 0, .3);
   border: 1px solid black;
 }
@@ -36,4 +40,4 @@ body{
 }
 .maximise{
   background-color: brown;
-}
+} */
